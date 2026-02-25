@@ -1,3 +1,63 @@
-body {
+body{
     padding-top: 5rem;
+    background-color: #f5f5f5;
+}
+
+.profile{
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-header{
+    background-color: #28a745;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-header p{
+    margin: 2px 0;
+}
+
+.profile-b{
+    padding: 20px;
+}
+
+.profile-b p{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat strong{
+    font-size: 18px;
+}
+
+.follow-btn{
+    background-color:#28a745;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:8px;
 }
